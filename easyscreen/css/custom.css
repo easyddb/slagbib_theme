@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'ApexBold';
+  src: url('../fonts/ApexSans-Extrabold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ApexSans-Extrabold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ApexSans-Extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ApexSans-Extrabold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ApexSans-Extrabold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ApexSans-Extrabold.svg#ApexBold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'ApexMedium';
+  src: url('../fonts/ApexSans-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ApexSans-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ApexSans-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ApexSans-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ApexSans-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ApexSans-Medium.svg#ApexMedium') format('svg'); /* Legacy iOS */
+}
+
+body {
+  background: url("../img/baggrund_easyscreen2.jpg") no-repeat;
+  font-family: 'ApexMedium', Arial, Helvetica, sans-serif;
+}
+
+body,
+#SlidersDiv,
+.section-container .carousel-ct-bodycontent .teaser,
+.single-ct-container .teaser {
+  word-break: normal;
+}
+
+/* Font settings */
+
+.single-ct-container .title,
+.carousel-tpl .title,
+.vertical-ticker .rss-item .title,
+.rss-ct.extended-vertical-ticker .panel .title,
+.rss-ct.single-carousel .rss-item .content .title,
+#SlidersDiv .accordeon .title,
+.art-popup-tpl h1.title,
+#Header .text,
+.events-page-header,
+.events-page-header h2 {
+  font-family: 'ApexBold', Arial, Helvetica, sans-serif;
+}
+
+/* Hidden elements */
+
+.search,
+.search-scan,
+.search:after,
+.simple-tpl .header p.category,
+.carousel-tpl .category,
+.simple-tpl p.readMore {
+  display: none;
+}
+
+#Header .text {
+  height: 95px;
+}
+
+.carousel-tpl .date,
+.simple-tpl .header .date-time,
+.carousel-tpl .date-time {
+  font-size: 35px;
+  float: left;
+}
+
+.single-ct-container .location,
+.carousel-ct-container .location {
+  font-family: 'ApexMedium', Arial, Helvetica, sans-serif;
+}
+
+.simple-tpl .item-data .body,
+.carousel-tpl .item-data .body {
+  top: 145px;
+}
+
+.carousel-tpl .item-data .body {
+  bottom: 90px;
+}
+
+/* Temporary content */
+
+.single-ct-container p.event-time:before,
+.carousel-ct-container p.event-time:before {
+  content: "kl. ";
+}
+
+.single-ct-container div.date-time p,
+.carousel-ct-container div.date-time p {
+  display: inline;
+  margin-right: 20px;
+}
+
+.single-ct-container div.date-time p.event-primary-address,
+.carousel-ct-container div.date-time p.event-primary-address {
+  display: block;
+}
+
+.events-day-title h2 {
+  padding: 5px 20px;
+}
+
+.events-page-header,
+.events-page-header h2 {
+  font-size: 24px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.events-page-header h2 {
+  margin: 0;
+}
+
+.events-page-header .pagination {
+  float: right;
+}
+
+.events-page-header .pagination a.active {
+  background: #36a29d;
+}
+
+.event-details {
+  line-height: 36px;
+  margin-top: 10px;
+  height: 72px;
+}
+
+.event-details .c1 {
+  width: 10%;
+}
+
+.event-details .c4 {
+  line-height: 30px;
+  width: 30%;
+}
+
+.column1 .event-details .col {
+  line-height: 18px;
+}
+
+.events-page-header .pagination a {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  border-radius: 20px;
+  background: #53514b;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
